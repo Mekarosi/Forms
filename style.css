@@ -1,0 +1,45 @@
+#container {
+    background: blanchedalmond;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3)
+}
+
+
+
+h2 {
+    color: blue;
+    background: rgba(202, 16, 16, 0.3);
+    font-weight: 600px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 28px;
+    
+}
+
+
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    background:   #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    color: rgba(133, 6, 6, 0.9);
+    font-size: 18px;
+}
+
+ 
+select {
+    margin-bottom: 20px;
+}

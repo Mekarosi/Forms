@@ -7,25 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
 </head>
+
 <body>
+    <div id="container">
     <h2>Sign-up Form</h2>
-    First name: <input type="text" name="FirstName" value=""><br>
-    Last name: <input type="number" name="age" value=""><br>
-    Password: <input type="password" name="password" value=""><br>
-    Email: <input type="text" name="Email" value=""><br>
-    Age: <input type="number" name="Age" value=""><br>
+    <div class="fields">
+        <spam>First name: <input class="value" type="text" name="FirstName" value=""><br></spam>
+        Last name: <input type="text" name="age" value=""><br>
+        Password: <input type="password" name="password" value=""><br>
+        Email: <input type="text" name="Email" value=""><br>
+        Age: <input type="number" name="Age" value=""><br>
 
         <select name="fruits">
             <option value="orange">orange</option>
             <option value="mango">mango</option>
             <option value="banana">banana</option>
             <option value="lemon">lemon</option>
+            <option value="lemon">apple</option>
+            <option value="lemon">pineapple</option>
+            <option value="lemon">lime</option>
         </select><br>
 
-    <input type="radio" name="agree" value="Car" checked="checked">Term and Condition<br>
-    <button>Sign-up</button>
-    <button>Sign-in</button>
+         <input type="radio" name="agree" value="Car" checked="">male
+         <input type="radio" name="agree" value="Car" checked="">female<br>
+         <button>Sign-up</button>
+        <button>Sign-in</button>
+    </div>
+</div>
 </body>
 </html>
 
