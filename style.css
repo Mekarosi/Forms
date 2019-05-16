@@ -64,3 +64,7 @@ select {
 button {
     margin-bottom: 30px;
 }
+
+a {
+    text-decoration-line: none;
+}
