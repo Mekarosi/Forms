@@ -67,4 +67,9 @@ button {
 
 a {
     text-decoration-line: none;
+    margin-top: 20px;
+}
+
+.value1 {
+    border-radius: 15%;
 }
