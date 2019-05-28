@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -23,12 +23,12 @@
     <form id="container">
     <h2>Sign-up Form</h2>
     <div class="fields">
-        First name: <input type="text" name="FirstName" value=""><br>
-        Last name: <input type="text" name="age" value=""><br>
-        Password: <input type="password" name="password" value=""><br>
-        Email: <input type="text" name="Email" value=""><br>
-        Age: <input type="number" name="Age" value=""><br>
-
+        First name: <input type="text" id="firstName" name="firstName" value="" required><br>
+        Last name: <input type="text" id= "lastName" name="lastName" value=""required><br>
+        Password: <input type="password" id="password" name="password" value="" required><br>
+        Email: <input type="text" id="email" name="email" value=""><br>
+        Age: <input type="number" id="age" name="age" value=""><br>
+        <input type="radio" name="agree" id="tandc" value="tandc" checked="checked">Term and Conditions<br>
         <select name="fruits">
             <option value="orange">orange</option>
             <option value="mango">mango</option>
@@ -42,8 +42,8 @@
         male<input type="radio" name="agree" checked="">
         female<input type="radio" name="agree"  checked=""><br>
 
-    
-         <input class="value1" type="submit" name="Sign-up"><br>
+        <button onclick="validateSignUp()">Submit</button><br>
+        <!-- <input onclick="validateSignUp()" class="value1" type="submit" name="Sign-up"><br> -->
         <a href="signin.html" >Sign-in</a>
     </div><br>
 </form>
