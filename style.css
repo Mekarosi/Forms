@@ -12,7 +12,11 @@ body{
     background: blanchedalmond;
     width: 400px;
     margin: 100px auto;
+<<<<<<< HEAD
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.7)
+=======
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+>>>>>>> gh-pages
 }
 
 .nav {
